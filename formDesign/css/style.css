@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+body{
+	background-image:url(../images/bg-intro-desktop.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-color:rgba(255,0,0,0.4);
+	background-blend-mode:overlay;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+		
+}
+.container{
+	padding-top:120px;
+	padding-bottom:50px;	
+}
+h6{
+	background-color:#5d54a3;
+	border-radius:10px;
+	padding:20px;
+	color:white;
+	box-shadow:0px 8px 1px #D86666;
+		
+}
+form{
+	background-color:rgba(255,255,255,1);
+	padding:25px;
+	border-radius:10px;
+	box-shadow:0px 8px 1px #D86666;
+	margin-top:15px;	
+}
+form input[type=submit]{
+	background-color:rgba(119,226,180,1);	
+}
+h2{
+	color:rgba(255,255,255,1);
+	margin-top:130px;
+		
+}
+p{
+	color:rgba(255,255,255,1);
+}
+
+
+
